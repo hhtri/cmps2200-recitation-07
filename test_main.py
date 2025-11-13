@@ -20,5 +20,3 @@ def test_n_components():
 
     graph = make_undirected_graph([('A', 'B'), ('B', 'C'), ('C', 'D'), ('D', 'B'), ('E', 'F'), ('F', 'G')])
     assert n_components(graph) == 2
-
-test_reachable()
